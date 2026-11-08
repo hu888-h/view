@@ -1,0 +1,46 @@
+# 构建产物与缓存（体积大、可重建）
+__pycache__/
+*.py[cod]
+node_modules/
+.cache/
+.tmp/
+.venv/
+venv/
+build/
+dist/
+target/
+*.o
+*.so
+*.a
+*.dll
+*.dylib
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# 二进制交付物（体积大，需要时单独发布）
+*.apk
+*.apk.*
+*.zip
+*.7z
+*.tar.gz
+
+# 模型权重与数据集（体积大）
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.h5
+*.pb
+*.tflite
+datasets/
+dataset/
+
+# 日志
+*.log
